@@ -1,4 +1,4 @@
-import React from "react";
+import NewsList from "./components/NewsList";
 import "./App.css";
 
 function App() {
@@ -7,7 +7,9 @@ function App() {
       <header className="app-header">
         <h1>News Dashboard</h1>
       </header>
-      <main></main>
+      <main>
+        <NewsList />
+      </main>
     </div>
   );
 }
