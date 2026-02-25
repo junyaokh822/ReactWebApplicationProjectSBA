@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "7d630f61ea99490395f77df41161ad75";
+const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
 const BASE_URL = "https://newsapi.org/v2";
 
 export const fetchTopHeadlines = async (category = "general") => {
